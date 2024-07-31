@@ -3,8 +3,9 @@ import { Comfortaa } from "next/font/google";
 import ReactQueryProvider from "@/app/ReactQueryProvider";
 import { NextSSRPlugin } from "@uploadthing/react/next-ssr-plugin";
 import { ThemeProvider } from "next-themes";
-import { Analytics } from "@vercel/analytics/react";
 import { extractRouterConfig } from "uploadthing/server";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Toaster } from "@/components/ui/toaster";
 import { fileRouter } from "@/app/api/uploadthing/core";
 import "./globals.css";
@@ -68,6 +69,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             {children}
+            <SpeedInsights />
           </ThemeProvider>
         </ReactQueryProvider>
         <Toaster />
