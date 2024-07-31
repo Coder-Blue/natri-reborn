@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   applicationName: "natri: Mạng xã hội",
   description:
-    "Một mạng xã hội hiện đại và nhanh dành cho người Việt được tạo bởi Noah Trần",
+    "Một mạng xã hội hiện đại và nhanh dành cho người Việt được tạo ra bởi Noah Trần",
   creator: "Noah Trần",
   authors: {
     name: "Noah Trần",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     url: "https://natri-soc.vercel.app/",
     title: "natri: Mạng xã hội",
     description:
-      "Một mạng xã hội hiện đại, đơn giản và nhanh dành cho người Việt được tạo bởi Noah Trần",
+      "Một mạng xã hội hiện đại, đơn giản và nhanh dành cho người Việt được tạo ra bởi Noah Trần",
     siteName: "natri: Mạng xã hội",
     images: [
       {
